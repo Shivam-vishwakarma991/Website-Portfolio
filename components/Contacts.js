@@ -1,3 +1,4 @@
+/* eslint react/no-unescaped-entiities */
 import React from 'react'
 import Link from 'next/link'
 

@@ -1,3 +1,4 @@
+/* eslint react/no-unescaped-entiities */
 import React from 'react'
 import {  AiFillGithub,AiOutlineTwitter,AiOutlineMail} from 'react-icons/ai'
 import {RiLinkedinFill} from 'react-icons/ri'

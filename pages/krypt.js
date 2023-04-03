@@ -1,3 +1,4 @@
+/* eslint react/no-unescaped-entiities */
 import React from 'react'
 import Image from 'next/legacy/image'
 import kryptImg from '../public/assets/Projects/krypt.png';

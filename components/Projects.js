@@ -1,9 +1,9 @@
-import Image from 'next/image'
+/* eslint react/no-unescaped-entiities */
+
 import React from 'react'
 import kryptImg from '../public/assets/Projects/krypt.png';
 import DrawingImg from '../public/assets/Projects/drawing.png';
 import PortfolioImg from '../public/assets/Projects/portfolio.png';
-import Link from 'next/link';
 import Projectitems from './Projectitems';
 
 const Projects = () => {
