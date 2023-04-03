@@ -1,7 +1,21 @@
 import React from 'react'
 import Image from 'next/image'
-
-
+import cppimg from '../public/assets/Skills/c++LOGO.png'
+import solimg from '../public/assets/Skills/soliditylogo.png'
+import htmlimg from '../public/assets/skills/htmllogo.png'
+import cssimg from '../public/assets/skills/csslogo.png'
+import javaimg from '../public/assets/skills/javascriptlogo.png'
+import reactimg from '../public/assets/Frameworks/reactLOGO.png'
+import tail from '../public/assets/Frameworks/tailwindLOGO.png'
+import eth from '../public/assets/Frameworks/ETHERJSlogo.png'
+import web from '../public/assets/Frameworks/web3jsLOGO.png'
+import node from '../public/assets/Frameworks/NODEJSLOGO.png'
+import truff from '../public/assets/Frameworks/truffleLOGO.png'
+import hardhat from '../public/assets/Frameworks/HARDHATLOGO.png'
+import remix from '../public/assets/Tools/REMIX.PNG'
+import infu from '../public/assets/Tools/INFURA.png'
+import ganace from '../public/assets/Tools/GANACHE (1).png'
+import meta from '../public/assets/Tools/METAMASK.png'
 const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-auto p-2 '>
@@ -15,7 +29,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/Skills/c++LOGO.png' width={64} height={64} 
+                            <Image src={cppimg} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
@@ -29,7 +43,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/Skills/soliditylogo.png' width={64} height={64}  
+                            <Image src={solimg} width={64} height={64}  
                             alt="/" 
                         />
                         </div>
@@ -43,7 +57,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/skills/htmllogo.png' width={64} height={64} 
+                            <Image src={htmlimg} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
@@ -57,7 +71,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/skills/csslogo.png' width={64} height={64} 
+                            <Image src={cssimg} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
@@ -71,7 +85,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/skills/javascriptlogo.png' width={64} height={64} 
+                            <Image src={javaimg} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
@@ -90,7 +104,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/Frameworks/reactLOGO.png' width={64} height={64} 
+                            <Image src={reactimg} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
@@ -103,7 +117,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/Frameworks/tailwindLOGO.png' width={64} height={64} 
+                            <Image src={tail} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
@@ -116,7 +130,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/Frameworks/ETHERJSlogo.png' width={64} height={64} 
+                            <Image src={eth} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
@@ -129,7 +143,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/Frameworks/web3jsLOGO.png' width={64} height={64} 
+                            <Image src={web} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
@@ -142,7 +156,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/Frameworks/NODEJSLOGO.png' width={64} height={64} 
+                            <Image src={node} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
@@ -155,7 +169,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/Frameworks/truffleLOGO.png' width={64} height={64} 
+                            <Image src={truff} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
@@ -168,7 +182,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/Frameworks/HARDHATLOGO.png' width={64} height={64} 
+                            <Image src={hardhat} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
@@ -186,7 +200,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/Tools/REMIX.PNG' width={64} height={64} 
+                            <Image src={remix} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
@@ -199,7 +213,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/Tools/INFURA.png' width={64} height={64} 
+                            <Image src={infu} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
@@ -212,7 +226,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/Tools/GANACHE (1).png' width={64} height={64} 
+                            <Image src={ganace} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
@@ -225,7 +239,7 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/Tools/METAMASK.png' width={64} height={64} 
+                            <Image src={meta} width={64} height={64} 
                             alt="/" 
                         />
                         </div>

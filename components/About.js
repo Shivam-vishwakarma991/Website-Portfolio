@@ -2,7 +2,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
-
+import pix from '../public/pic.png'
 
 const About = () => {
   return (
@@ -30,7 +30,7 @@ const About = () => {
                 </Link>
               </div>
                 <div className='w-full h-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 sm:flex-row sm:p-8'>
-                <Image className='rounded-3xl rounded-tr-3xl object-contain md:object-cover' src='/../public/pic.png' width={1300} height={34} />
+                <Image className='rounded-3xl rounded-tr-3xl object-contain md:object-cover' src={pix} width={1300} height={34} />
                 </div>
         </div>
     </div>
