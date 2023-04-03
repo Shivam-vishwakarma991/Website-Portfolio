@@ -88,7 +88,7 @@ const Navbar = () => {
 
           
             <div className=' flex w-full items-center justify-between'>
-            <img src={navBg} alt= "/" width='85' height='35' />
+            <img src={navimg} alt= "/" width='85' height='35' />
             <div onClick={handlenav} className='rounded-full  shadow-lg shadow-gray-400 p-3 cursor-pointer'>
               <AiOutlineClose />
             </div>

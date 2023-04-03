@@ -14,7 +14,7 @@ import truff from '../public/assets/Frameworks/truffleLOGO.png'
 import hardhat from '../public/assets/Frameworks/hardhatLOGO.png'
 import remix from '../public/assets/Tools/REMIX.png'
 import infu from '../public/assets/Tools/infura.png'
-import ganace from '../public/assets/Tools/GANACHE (1).png'
+import ganace from '../public/assets/Tools/GANACHE.png'
 import meta from '../public/assets/Tools/metamask.png'
 const Skills = () => {
   return (
