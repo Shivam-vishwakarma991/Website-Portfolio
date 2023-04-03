@@ -12,10 +12,10 @@ import web from '../public/assets/Frameworks/web3jsLOGO.png'
 import node from '../public/assets/Frameworks/nodejsLOGO.png'
 import truff from '../public/assets/Frameworks/truffleLOGO.png'
 import hardhat from '../public/assets/Frameworks/hardhatLOGO.png'
-import remix from '../public/assets/Tools/REMIX.PNG'
-import infu from '../public/assets/Tools/INFURA.png'
+import remix from '../public/assets/Tools/REMIX.png'
+import infu from '../public/assets/Tools/infura.png'
 import ganace from '../public/assets/Tools/GANACHE (1).png'
-import meta from '../public/assets/Tools/METAMASK.png'
+import meta from '../public/assets/Tools/metamask.png'
 const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-auto p-2 '>
