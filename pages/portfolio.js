@@ -47,10 +47,10 @@ const portfolio = () => {
             Used Incorporate lazy loading images as well as the built in router <br />  <br />
           </p>
 
-
+<a href='#'>
 <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-
-<a href='https://github.com/Shivam-vishwakarma991/ProtFolio'>
+</a>
+<a href='https://github.com/Shivam-vishwakarma991/Website-Portfolio'>
 <button className='px-8 py-2 mt-4 '>Code</button></a>
 
           

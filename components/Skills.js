@@ -18,7 +18,7 @@ import ganace from '../public/assets/Tools/GANACHE (1).png'
 import meta from '../public/assets/Tools/metamask.png'
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-auto p-2 '>
+    <div id='skills' className='w-full h-auto p-2 '>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Skills</p>
             <h2 className='py-4 '>What I can do</h2>
@@ -90,7 +90,7 @@ const Skills = () => {
                         />
                         </div>
                         <div>
-                            <h3 className='flex flex-col items-center justify-center'>JAVASCRIPT</h3>
+                            <h3 className='flex flex-col items-center justify-center'>JAVA SCRIPT</h3>
                         </div>
                     </div>
                 </div>
@@ -115,14 +115,14 @@ const Skills = () => {
                 </div>
 
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center '>
+                        <div className=' m-auto ml-0'>
                             <Image src={tail} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
-                        <div>
-                            <h3 className='flex flex-col items-center justify-center'>TAILDWINDCSS</h3>
+                        <div className='text-center md:text-left' >
+                            <h3 className='flex flex-col items-center justify-center  mt-1'>TAILWIND CSS</h3>
                         </div>
                     </div>
                 </div>
@@ -244,7 +244,7 @@ const Skills = () => {
                         />
                         </div>
                         <div>
-                            <h3 className='flex flex-col items-center justify-center'>METAMASK</h3>
+                            <h3 className='flex flex-col items-center justify-center'>META MASK</h3>
                         </div>
                     </div>
                 </div>

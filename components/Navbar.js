@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
 import {AiOutlineClose, AiOutlineMenu,AiFillGithub, AiOutlineTwitter, AiOutlineMail} from 'react-icons/ai'
 import {RiLinkedinFill} from 'react-icons/ri'
-import navimg from '../public/svlogo.png'
+import navimg from '../public/svlogo.png';
 const Navbar = () => {
 
   const[nav,setnav]= useState(false)
@@ -88,7 +88,7 @@ const Navbar = () => {
 
           
             <div className=' flex w-full items-center justify-between'>
-            <Image src='/../public/svlogo.png' alt= "/" width='85' height='35' />
+            <img src={navBg} alt= "/" width='85' height='35' />
             <div onClick={handlenav} className='rounded-full  shadow-lg shadow-gray-400 p-3 cursor-pointer'>
               <AiOutlineClose />
             </div>
