@@ -2,7 +2,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
-import pix from '../public/pic.png'
+import pix from '../public/shivam.jpg'
 
 const About = () => {
   return (

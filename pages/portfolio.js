@@ -76,7 +76,7 @@ Cool NextJS features - </span><br />
        </div>
       </div>
       </div>
-      <Link href='/#projects' >
+      <Link href='/#project' >
       <p className=' px-2 text-bold underline cursor-pointer'>Back</p>
     </Link>
 
