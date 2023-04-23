@@ -34,15 +34,18 @@ const Krypt = () => {
         <p className=' text-xl px-1 uppercase text-[#5651e5]'>Project</p>
           <h2 >Overview</h2>
         <ul>
-        <p className='py-3'> My first full-fledged project in blockchain domain this is basically a Web 3.0 platform that allows users to send Ethereum through the blockchain by connecting the Metamask wallet. This Dapp(Decentralized Application) is called Krypt, it's a completely responsive crypto wallet deployed on Goerli testnet where a user can make secure and easy transactions, it transfers Ether over other addresses anywhere across the globe.</p>
- During the making of this project I got to learn about alot of new things some of the major take-away from this project was that I got the clear idea of
-<li> How to integrate Dapp's frontend with smart contracts using a React/node.js stacks.</li>
- <li> Learned how to use Hardhat(Development environment) to write smart contracts on the Ethereum network using Solidity programming language.</li>
-<li> How to interact with smart contract and how to connect to Ethereum: Metamask using Ether.js.</li>
-<li> How to use Infura to get access to the Ethereum Network.</li>
-<li>Got the deep understanding of react hooks and  TailwindCSS.</li>
+        <p className='py-3'>📌 My first full-fledged project in blockchain domain this is basically a Web 3.0 platform that allows users to send Ethereum through the blockchain by connecting the Metamask wallet. This Dapp(Decentralized Application) is called Krypt, it's a completely responsive crypto wallet deployed on Goerli testnet where a user can make secure and easy transactions, it transfers Ether over other addresses anywhere across the globe.</p>
+        📌 During the making of this project I got to learn about alot of new things some of the major take-away from this project was that I got the clear idea of.
+         <br/> <br/>
+<li>
+  <pre/> 
+  ✔ How to integrate Dapp's frontend with smart contracts using a React/node.js stacks.</li><br/>
+ <li>✔ Learned how to use Hardhat(Development environment) to write smart contracts on the Ethereum network using Solidity programming language.</li><br/>
+<li>✔ How to interact with smart contract and how to connect to Ethereum: Metamask using Ether.js.</li><br/>
+<li>✔How to use Infura to get access to the Ethereum Network.</li><br/>
+<li>✔ Got the deep understanding of react hooks and  TailwindCSS.</li> <br/>
 
-<p>As challenging as it was to implement this project, Being my first Decentralised application, I was able to explore a lot about blockchain development, Solidity Smart contracts, Metamask and all other Technologies.</p>
+<p>📌 As challenging as it was to implement this project, Being my first Decentralised application, I was able to explore a lot about blockchain development, Solidity Smart contracts, Metamask and all other Technologies.</p>
 </ul>
 
 <a href='https://github.com/Shivam-vishwakarma991/Ether-Transfer'>
@@ -80,7 +83,7 @@ const Krypt = () => {
               </p>
 
               <p className='text-gray-600 py-2 flex items-center'>
-              <RiRadioButtonFill  className='pr-1'/>  Web3Js, <br/>EtherJs
+              <RiRadioButtonFill  className='pr-1'/>  EtherJs
               </p>             
        </div>
       </div>

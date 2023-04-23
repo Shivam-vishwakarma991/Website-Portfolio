@@ -36,12 +36,13 @@ const portfolio = () => {
 
         <p>
             <br />
-            Tech stack used for building this portfio-website are NextJS and TailwindCss.<br/>
-            The project also features smooth scrolling for excellent user experiece.<br />
-            Messages that the user sends are recieved using getForm.io <br />
-            Hosted over - Vercel<br /><br />
+            📌 Tech stack used for building this portfio-website are NextJS and TailwindCss.<br/>
+            📌 The project also features smooth scrolling for excellent user experiece.<br />
+            📌  Messages that the user sends are recieved using getForm.io <br />
+            📌  Hosted over -Netlify<br /><br />
 
-            <span className="py-2 font-semibold">Cool NextJS features - </span><br />
+            <span className="py-2 font-semibold">😎
+Cool NextJS features - </span><br />
             Most known for server side rendring, lazy loading images, and a built in routing system. <br />
 
             Used Incorporate lazy loading images as well as the built in router <br />  <br />

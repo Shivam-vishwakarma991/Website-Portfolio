@@ -98,7 +98,7 @@ const Contact = () => {
                     <label className='uppercase text-sm py-2'>
                         Name
                     </label>
-                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
+                    <input  className='border-2 rounded-lg p-3 flex border-gray-300' type="text" required/>
                 </div>
 
                 <div className='flex flex-col'>
@@ -114,7 +114,7 @@ const Contact = () => {
             <label className='uppercase text-sm py-2'>
                         EMAIL
                     </label>
-                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" />
+                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" required/>
 
             </div>
 
@@ -122,7 +122,7 @@ const Contact = () => {
             <label className='uppercase text-sm py-2'>
                         SUBJECT
                     </label>
-                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="TEXT" />
+                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="TEXT" required />
             </div>
 
             <div className='flex flex-col py-2'>

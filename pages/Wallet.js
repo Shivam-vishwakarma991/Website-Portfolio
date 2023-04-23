@@ -1,7 +1,7 @@
 /* eslint react/no-unescaped-entiities */
 import React from 'react'
 import Image from 'next/legacy/image'
-import draw from './../public/assets/Projects/drawing.png'
+import walletimg from './../public/assets/Projects/wallet.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 
@@ -18,11 +18,11 @@ const drawing = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={draw}
+          src={walletimg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Drawing Application</h2>
+          <h2 className='py-2'>Decentralized Wallet</h2>
           <h3> </h3>
         </div>
       </div>
@@ -35,20 +35,23 @@ const drawing = () => {
           <h2 >Overview</h2>
         
         <p className='py-3'>
-        📌  A small Drawing Application using HTML canvas to draw graphics, <br/>
-        📌 The canvas element is only a container for graphics. So I've used JavaScript to actually draw the graphics. <br />
-        📌 For Styling simple CSS is used.
+        📌
+ Created a Decentralized wallet project, in which user can connect this wallet to the Metamask and send ether to the receiver's address. <br/>
+ 📌 And as soon as the transaction gets completed the user can see the transaction details like "transactionHash", "blockHash", "gasUsed" etc. in the JSON response section.
+        <br/>
+        📌
+  Used Sepolia test network for transactions, Truffle as the development environment and web3.js for intergration.
 
         </p>
  
 
-<a href='https://shivam-vishwakarma991.github.io/Drawing-App-HTML-Canvas/'>
+<a href='https://shivam-vishwakarma991.github.io/decentralizedWALLET/'>
 <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
 </a>
 
 
 
-<a href='https://github.com/Shivam-vishwakarma991/Drawing-App-HTML-Canvas'>
+<a href='https://github.com/Shivam-vishwakarma991/decentralizedWALLET'>
 <button className='px-8 py-2 mt-4 '>Code</button>
 </a>
           
@@ -60,7 +63,7 @@ const drawing = () => {
           <p className='text-center font-bold pb-2'>Technologies</p>
           <div className='grid grid-cols-3 md:grid-cols-1' >
             <p className='text-gray-600 py-2 flex items-center'>
-              <RiRadioButtonFill  className='pr-1'/>  HTML
+              <RiRadioButtonFill  className='pr-1'/>  React JS
               </p>
 
               <p className='text-gray-600 py-2 flex items-center'>
@@ -68,11 +71,14 @@ const drawing = () => {
               </p>
 
               <p className='text-gray-600 py-2 flex items-center'>
-              <RiRadioButtonFill  className='pr-1'/>  Javascript
+              <RiRadioButtonFill  className='pr-1'/>  Truffle
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+              <RiRadioButtonFill  className='pr-1'/>  Metamask
               </p>
 
               <p className='text-gray-600 py-2 flex items-center'>
-              <RiRadioButtonFill  className='pr-1'/>  HTML canvas
+              <RiRadioButtonFill  className='pr-1'/> Alchemy
               </p>
 
                    
