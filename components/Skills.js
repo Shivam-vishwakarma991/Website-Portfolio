@@ -127,7 +127,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                {/* <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src={eth} width={64} height={64} 
@@ -138,7 +138,7 @@ const Skills = () => {
                             <h3 className='flex flex-col items-center justify-center '>ETHERJS</h3>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -179,7 +179,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                {/* <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src={hardhat} width={64} height={64} 
@@ -190,7 +190,7 @@ const Skills = () => {
                             <h3 className='flex flex-col items-center justify-center'>HARDHAT</h3>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 
             </div>
 
