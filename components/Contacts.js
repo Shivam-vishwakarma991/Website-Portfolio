@@ -29,8 +29,8 @@ const Contact = () => {
         </div>
         <div>
             <h2 className='py-2'> Shivam Vishwakarma</h2>
-            <p >Blockchain Developer</p>
-            <p className='py-4'>I am available for Internship or full-time positions. Contact me and let's have a talk.</p>
+            <p >Full Stack Blockchain Developer</p>
+            <p className='py-4'>I am available for Freelancing or full-time positions. Contact me and let's have a talk.</p>
         </div>
         <div>
         <p className=' uppercase pt-8'>Connect with me</p>
@@ -98,14 +98,14 @@ const Contact = () => {
                     <label className='uppercase text-sm py-2'>
                         Name
                     </label>
-                    <input  className='border-2 rounded-lg p-3 flex border-gray-300' type="text" required/>
+                    <input name='name'  className='border-2 rounded-lg p-3 flex border-gray-300' type="text" required/>
                 </div>
 
                 <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>
                         Phone Number
                     </label>
-                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
+                    <input name='phone' className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
                 </div>
 
             </div>
@@ -114,7 +114,7 @@ const Contact = () => {
             <label className='uppercase text-sm py-2'>
                         EMAIL
                     </label>
-                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" required/>
+                    <input name='email' className='border-2 rounded-lg p-3 flex border-gray-300' type="email" required/>
 
             </div>
 
@@ -134,7 +134,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
 
-                <button className=' hover:scale-105 ease-in duration-300 w-full p-4 text-gray-100 mt-4'>
+                <button  className=' hover:scale-105 ease-in duration-300 w-full p-4 text-gray-100 mt-4'>
                   Send Message
                 </button>
         </form>
