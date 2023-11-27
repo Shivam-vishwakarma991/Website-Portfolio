@@ -10,7 +10,11 @@ import tail from '../public/assets/Frameworks/tailwindLOGO.png'
 import eth from '../public/assets/Frameworks/ETHERJSlogo.png'
 import web from '../public/assets/Frameworks/web3jsLOGO.png'
 import node from '../public/assets/Frameworks/nodejsLOGO.png'
-import truff from '../public/assets/Frameworks/truffleLOGO.png'
+import bootstrap from '../public/assets/Frameworks/bootstrap.png'
+import cicd from '../public/assets/Frameworks/ci:cd.png'
+import jenkins from '../public/assets/Frameworks/jenkins.png'
+import nextjs from '../public/assets/Frameworks/nextjs.png'
+import typescript from '../public/assets/Frameworks/typescript.png'
 import hardhat from '../public/assets/Frameworks/hardhatLOGO.png'
 import remix from '../public/assets/Tools/REMIX.png'
 import infu from '../public/assets/Tools/infura.png'
@@ -23,18 +27,18 @@ const Skills = () => {
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Skills</p>
             <h2 className='py-4 '>What I can do</h2>
             <h2 className='py-0 text-xl '>Programming Languages I know</h2>
-            <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
+            <div className='grid grid-cols-2 lg:grid-cols-4 gap-8 mt-3'>
               
 
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={cppimg} width={64} height={64} 
+                            <Image src={typescript} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
                         <div>
-                            <h3 className='flex flex-col items-center justify-center'>C++</h3>
+                            <h3 className='flex flex-col items-center justify-center'>TYPESCRIPT</h3>
                         </div>
                     </div>
                 </div>
@@ -43,15 +47,18 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={solimg} width={64} height={64}  
+                            <Image src={javaimg} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
                         <div>
-                            <h3 className='flex flex-col items-center justify-center'>SOLIDITY</h3>
+                            <h3 className='flex flex-col items-center justify-center'>JAVA SCRIPT</h3>
                         </div>
                     </div>
                 </div>
+
+
+               
 
 
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
@@ -81,19 +88,20 @@ const Skills = () => {
                     </div>
                 </div>
 
-
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={javaimg} width={64} height={64} 
+                            <Image src={solimg} width={64} height={64}  
                             alt="/" 
                         />
                         </div>
                         <div>
-                            <h3 className='flex flex-col items-center justify-center'>JAVA SCRIPT</h3>
+                            <h3 className='flex flex-col items-center justify-center'>SOLIDITY</h3>
                         </div>
                     </div>
                 </div>
+
+
 
             </div>
 
@@ -113,6 +121,18 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src={nextjs} width={64} height={64} 
+                            alt="/" 
+                        />
+                        </div>
+                        <div>
+                            <h3 className='flex flex-col items-center justify-center'>NEXTJS</h3>
+                        </div>
+                    </div>
+                </div>
 
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center '>
@@ -127,7 +147,20 @@ const Skills = () => {
                     </div>
                 </div>
 
-                {/* <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src={bootstrap} width={64} height={64} 
+                            alt="/" 
+                        />
+                        </div>
+                        <div>
+                            <h3 className='flex flex-col items-center justify-center '>BOOTSTRAP</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image src={eth} width={64} height={64} 
@@ -135,20 +168,7 @@ const Skills = () => {
                         />
                         </div>
                         <div>
-                            <h3 className='flex flex-col items-center justify-center '>ETHERJS</h3>
-                        </div>
-                    </div>
-                </div> */}
-
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src={web} width={64} height={64} 
-                            alt="/" 
-                        />
-                        </div>
-                        <div>
-                            <h3 className='flex flex-col items-center justify-center'>WEB3JS</h3>
+                            <h3 className='flex flex-col items-center justify-center'>ETHERJS</h3>
                         </div>
                     </div>
                 </div>
@@ -169,12 +189,12 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src={truff} width={64} height={64} 
+                            <Image src={hardhat} width={64} height={64} 
                             alt="/" 
                         />
                         </div>
                         <div>
-                            <h3 className='flex flex-col items-center justify-center'>TRUFFLE</h3>
+                            <h3 className='flex flex-col items-center justify-center'>HARDHAT</h3>
                         </div>
                     </div>
                 </div>
@@ -196,6 +216,32 @@ const Skills = () => {
 
             <h2 className='py-6 text-xl '>Tools I am Familiar with</h2>
                 <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
+
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image src={jenkins} width={64} height={64} 
+                            alt="/" 
+                        />
+                        </div>
+                        <div>
+                            <h3 className='flex flex-col items-center justify-center'>JENKINS</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center' style={{marginTop:"15px"}}>
+                        <div className='m-auto'>
+                            <Image src={cicd} width={64} height={64} 
+                            alt="/" 
+                        />
+                        </div>
+                        <div>
+                            <h3 className='flex flex-col items-center justify-center'>CI/CD</h3>
+                        </div>
+                    </div>
+                </div>
 
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -223,31 +269,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src={ganace} width={64} height={64} 
-                            alt="/" 
-                        />
-                        </div>
-                        <div>
-                            <h3 className='flex flex-col items-center justify-center'>GANACHE</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src={meta} width={64} height={64} 
-                            alt="/" 
-                        />
-                        </div>
-                        <div>
-                            <h3 className='flex flex-col items-center justify-center'>META MASK</h3>
-                        </div>
-                    </div>
-                </div>
+                
 
                 </div>
             </div>
