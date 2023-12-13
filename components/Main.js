@@ -14,9 +14,9 @@ const Main = () => {
         
         <h1 className='py-4 text-gray-700'> Hey, I'm <span className= 'text-[#5651e5]'>Shivam </span> </h1>
 
-        <h1 className='py-25 uppercase text-[200%] text-gray-700'> A full stack blockchain developer</h1>
+        <h1 className='py-25 uppercase text-[200%] text-gray-700'> A Full Stack Software Developer</h1>
 
-        <p className='py-4 text-gray-700 max-w-[70%] m-auto'>I'm an enthusiastic tech explorer with a passion for blockchain development. Recently graduated with a degree in mechanical engineering, I'm delving into the dynamic realms of frontend and backend technologies. Eager to elevate my skills and delve deeper into the ever-evolving world of decentralized tech </p>
+        <p className='py-4 text-gray-700 max-w-[70%] m-auto'>I'm an enthusiastic tech explorer with a passion for blockchain development. Recently graduated, I'm delving into the dynamic realms of frontend and backend technologies. Eager to elevate my skills and delve deeper into the ever-evolving world of decentralized tech </p>
 
         <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
 

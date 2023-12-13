@@ -16,7 +16,9 @@ const About = () => {
           <h2 className="py-4 ">Who I Am</h2>
 
           <p>
-          Greetings! I'm a Bhopal-based full stack Blockchain Developer with a Mechanical Engineering background. Despite graduating in the non-tech domain, my passion for Blockchain led me to gain hands-on experience in both front-end and back-end development.
+          Greetings! I'm a Bhopal-based Full Stack Software Developer. With a keen interst in blockchain technology. <br/> <br/>
+          Passionate about design and building exceptional digital experiences. 🚀 <br/> <br/>
+          Proficient in JavaScript, Typescript, NodeJs, NextJS, ReactJS, Bootstrap, 
      
           </p>
 
@@ -39,6 +41,7 @@ const About = () => {
             src={pix}
             width={1300}
             height={34}
+            alt="img"
           />
         </div>
       </div>

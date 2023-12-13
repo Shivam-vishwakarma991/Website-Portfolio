@@ -39,7 +39,7 @@ const portfolio = () => {
             📌 Tech stack used for building this portfio-website are NextJS and TailwindCss.<br/>
             📌 The project also features smooth scrolling for excellent user experiece.<br />
             📌  Messages that the user sends are recieved using getForm.io <br />
-            📌  Hosted over -Netlify<br /><br />
+            📌  Hosted over -Vercel<br /><br />
 
             <span className="py-2 font-semibold">😎
 Cool NextJS features - </span><br />
